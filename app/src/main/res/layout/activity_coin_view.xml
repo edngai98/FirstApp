@@ -6,145 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".CoinViewActivity">
 
-    <TextView
-        android:id="@+id/change7Days"
-        android:layout_width="wrap_content"
-        android:layout_height="19dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginRight="138dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/vol2"
-        app:layout_constraintTop_toBottomOf="@+id/change24Hours" />
-
-    <TextView
-        android:id="@+id/volume24Hour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="67dp"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginRight="137dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/vol"
-        app:layout_constraintTop_toBottomOf="@+id/marketCap" />
-
-    <TextView
-        android:id="@+id/change1Hour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginRight="138dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/vol4"
-        app:layout_constraintTop_toBottomOf="@+id/valueUSD" />
-
-    <TextView
-        android:id="@+id/marketCap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginRight="138dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/vol1"
-        app:layout_constraintTop_toBottomOf="@+id/change7Days" />
-
-    <TextView
-        android:id="@+id/valueUSD"
-        android:layout_width="wrap_content"
-        android:layout_height="19dp"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginTop="53dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginRight="138dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/vol5"
-        app:layout_constraintTop_toBottomOf="@+id/coinTitleAbbreviation" />
-
-    <TextView
-        android:id="@+id/change24Hours"
-        android:layout_width="wrap_content"
-        android:layout_height="19dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginRight="138dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/vol3"
-        app:layout_constraintTop_toBottomOf="@+id/change1Hour" />
-
     <ImageView
         android:id="@+id/androidIcon"
-        android:layout_width="108dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginLeft="74dp"
-        android:layout_marginTop="69dp"
-        android:layout_marginEnd="266dp"
-        android:layout_marginRight="266dp"
-        android:layout_marginBottom="590dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="109dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="107dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <TextView
         android:id="@+id/coinTitle"
-        android:layout_width="152dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginLeft="46dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="611dp"
-        android:gravity="center"
+        android:layout_width="161dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
         android:text="Venkateshlina"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/androidIcon"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/coinTitleAbbreviation"
-        android:layout_width="52dp"
+        android:layout_width="80dp"
         android:layout_height="28dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginLeft="49dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="146dp"
-        android:layout_marginRight="146dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="17dp"
         android:text="VTL"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/androidIcon"
         app:layout_constraintTop_toBottomOf="@+id/coinTitle" />
 
     <TextView
         android:id="@+id/vol2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginStart="62dp"
         android:layout_marginLeft="62dp"
         android:layout_marginTop="29dp"
@@ -155,10 +59,10 @@
     <TextView
         android:id="@+id/vol3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginStart="62dp"
         android:layout_marginLeft="62dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="30dp"
         android:text="Change (24h)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vol4" />
@@ -166,7 +70,7 @@
     <TextView
         android:id="@+id/vol4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginStart="62dp"
         android:layout_marginLeft="62dp"
         android:layout_marginTop="30dp"
@@ -177,7 +81,7 @@
     <TextView
         android:id="@+id/vol5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginStart="63dp"
         android:layout_marginLeft="63dp"
         android:layout_marginTop="53dp"
@@ -188,10 +92,10 @@
     <TextView
         android:id="@+id/vol1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginStart="63dp"
         android:layout_marginLeft="63dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="30dp"
         android:text="Marketcap"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vol2" />
@@ -199,12 +103,97 @@
     <TextView
         android:id="@+id/vol"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginStart="63dp"
         android:layout_marginLeft="63dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="31dp"
         android:text="Volume (24h)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vol1" />
+
+    <TextView
+        android:id="@+id/change1Hour"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/vol4"
+        app:layout_constraintTop_toBottomOf="@+id/valueUSD" />
+
+    <TextView
+        android:id="@+id/change24Hours"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/vol3"
+        app:layout_constraintTop_toBottomOf="@+id/change1Hour" />
+
+    <TextView
+        android:id="@+id/change7Days"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/vol2"
+        app:layout_constraintTop_toBottomOf="@+id/change24Hours" />
+
+    <TextView
+        android:id="@+id/marketCap"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/vol1"
+        app:layout_constraintTop_toBottomOf="@+id/change7Days" />
+
+    <TextView
+        android:id="@+id/volume24Hour"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="31dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/vol"
+        app:layout_constraintTop_toBottomOf="@+id/marketCap" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/valueUSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="53dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/vol5"
+        app:layout_constraintTop_toBottomOf="@+id/coinTitleAbbreviation" />
+
+    <Button
+        android:id="@+id/searchCoinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:text="Search In Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

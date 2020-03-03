@@ -108,7 +108,7 @@ public class Coin {
     public static Coin search(String a) {
         Coin targetCoin = new Coin();
         for (Coin c : getCoins()) {
-            if (getCoins().equals(a)) {
+            if (c.getSymbol().equals(a) | c.getName().equals(a)) {
                 return c;
                 //c.symbol = getCoins().get(c).symbol;
 

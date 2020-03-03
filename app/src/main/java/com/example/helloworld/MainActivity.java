@@ -30,8 +30,8 @@
         private void moveToDetailActivity() {
             Intent intent = new Intent(MainActivity.this, CoinViewActivity.class);
 
-            String text = "BTC";
-            intent.putExtra("Text", text);
+            String text = "Bitcoin";
+            intent.putExtra("Bitcoin", text);
 
             startActivity(intent);
         }
