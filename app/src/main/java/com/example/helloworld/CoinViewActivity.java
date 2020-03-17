@@ -11,19 +11,22 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CoinViewActivity extends AppCompatActivity {
+
+    List<Coin> coinList = Coin.getCoins();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coin_view);
         Intent intent = getIntent();
-        String value = intent.getStringExtra("Bitcoin");
+        int value = intent.getIntExtra("pos", 0);
 
 
 
-        Coin myCoin = Coin.search(value);
+        Coin myCoin = coinList.get(value);
 
         TextView value_of_coin = (TextView) findViewById(R.id.valueUSD);
         TextView change_one_hour = (TextView) findViewById(R.id.change1Hour);

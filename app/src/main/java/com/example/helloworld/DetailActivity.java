@@ -23,13 +23,7 @@ public class DetailActivity extends AppCompatActivity {
 
         Button videoButton = (Button) findViewById(R.id.ShowVideoButton);
 
-        videoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=cr4CmxaDr04"));
-                startActivity(intent);
-            }
-        });
+
 
     }
 
